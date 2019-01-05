@@ -1,0 +1,180 @@
+* {
+  font-size: 1.8rem;
+  font-family: $font-open-sans;
+  font-weight: 300;
+}
+html, body {
+  font-size: 10px;
+}
+
+// Headlines
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  font-family: $font-noto-serif;
+}
+h1 {
+  padding: 15px 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+
+  &.title {
+    font-size: 9rem;
+    font-weight: 500;
+  }
+}
+h2 {
+  padding: 15px 0;
+  font-size: 4rem;
+  font-weight: 900;
+
+  &.title {
+    font-size: 8rem;
+    font-weight: 500;
+  }
+}
+h3 {
+  padding: 15px 0;
+  font-size: 3.2rem;
+  font-weight: 900;
+
+  &.title {
+    font-size: 6.4rem;
+    font-weight: 500;
+  }
+}
+h4 {
+  padding: 10px 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+
+  &.title {
+    font-size: 5.6rem;
+    font-weight: 500;
+  }
+}
+h5 {
+  padding: 10px 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  &.title {
+    font-size: 4.4rem;
+    font-weight: 500;
+  }
+}
+h6 {
+  padding: 10px 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  &.title {
+    font-size: 3.2rem;
+    font-weight: 500;
+  }
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: $color-primary-green-dark;
+  @include transition(color, 0.2s, ease-in-out);
+
+  &:hover {
+    color: $color-primary-green-light;
+  }
+}
+
+// Paragraphs, Articles, Abbreviations/ Acronyms, spans
+p {
+  line-height: 130%;
+}
+article {
+
+}
+abbr {
+
+}
+span {
+
+}
+
+// Blockquotes, Quotes
+blockquote, q {
+  font-family: $font-noto-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 130%;
+}
+
+// Lists
+
+// Bold / Italic / Strong / Small
+b {
+  font-weight: 500;
+}
+i {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
+u {
+
+}
+small {
+  font-size: 1.2rem;
+}
+
+// Inputs
+input {
+
+}
+select {
+
+}
+textarea {
+
+}
+
+// Sub-unten, Sup-oben
+sub, sup {
+  position: relative;
+  vertical-align: baseline;
+  font-size: 1.1rem;
+}
+sub {
+  top: 0.4em;
+}
+sup {
+  top: -0.6em;
+}
+
+// code
+code {
+  font-family: $font-monospace;
+}
+
+// Logo
+.logo {
+  font-family: $font-open-sans;
+  .tea, .finder {
+    color: $color-black;
+    font-weight: 700;
+  }
+  i {
+    display: inline-block;
+    padding: 0 3px;
+    color: $color-primary-green;
+  }
+}
+// Text Tools
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+
+
+

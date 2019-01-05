@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300,400,500,600,700,900|Open+Sans:300,300i,400,400i,600,600i,700,800');
+
+// imports
+
+// Variables
+@import "styles/variables/variables";
+
+// Mixins
+@import "styles/mixins/mixins";
+
+// Reset
+@import "styles/generals/reset";
+
+// Generals
+@import "styles/generals/typographie";
+@import "styles/generals/buttons";
+@import "styles/generals/sites";
