@@ -1,0 +1,21 @@
+.sort-card-select {
+  .image-wrapper {
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .overlay-wrapper {
+    width: 100%;
+    padding-top: 100%;
+    text-align: center;;
+    transform: translateY(-84%);
+    .sort-title {
+      font-size: 50px;
+      font-weight: bold;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      color: white;
+    }
+  }
+}
