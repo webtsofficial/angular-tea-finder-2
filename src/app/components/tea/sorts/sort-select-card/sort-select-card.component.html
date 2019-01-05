@@ -1,8 +1,9 @@
 <div class="sort-card-select">
   <div class="image-wrapper">
-    <img src="../../../../../assets/images/sorts/schwarzer.jpg">
+    <img [src]="sort.image">
+    <!-- ../../../../../assets/images/sorts/schwarzer.jpg -->
   </div>
-  <div class="overlay-wrapper">
-    <span class="sort-title">Black</span>
+  <div class="overlay-wrapper" (click)="toggleSelect()">
+    <span class="sort-title">{{sort.name}}</span>
   </div>
 </div>

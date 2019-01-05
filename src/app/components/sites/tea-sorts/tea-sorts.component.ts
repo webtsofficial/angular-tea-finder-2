@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Sort} from '../../../models/tea/sort/Sort';
+import {SortsService} from '../../../services/tea/sorts/sorts.service';
 
 @Component({
   selector: 'app-tea-sorts',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeaSortsComponent implements OnInit {
 
-  constructor() { }
+  sorts: Sort[];
+
+  constructor(private sortsService: SortsService) {
+    this.sorts = this.sortsService.getAll();
+  }
 
   ngOnInit() {
   }
