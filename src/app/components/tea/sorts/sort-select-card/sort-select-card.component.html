@@ -1,4 +1,6 @@
-<div class="sort-card-select">
+<div class="sort-card-select"
+     appHeightEqualsWidth
+     [ngClass]="{'active': selected}">
   <div class="image-wrapper">
     <img [src]="sort.image">
     <!-- ../../../../../assets/images/sorts/schwarzer.jpg -->

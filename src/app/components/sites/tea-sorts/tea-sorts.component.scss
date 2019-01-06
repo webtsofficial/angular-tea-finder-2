@@ -2,12 +2,9 @@
 @import "../../../../styles/mixins/mixins";
 
 .site-wrapper {
-  @include flexbox();
-  @include flex-direction(row);
-  @include flex-wrap(wrap);
-  @include justify-content(flex-start);
 
   app-sort-select-card {
-
+    padding: 0;
+    overflow: hidden;
   }
 }

@@ -5,11 +5,13 @@ import {TeaSortsRoutingModule} from './tea-sorts-routing.module';
 import {TeaSortsComponent} from './tea-sorts.component';
 import {SharedModule} from '../../../shared.module';
 import {SortSelectCardComponent} from '../../tea/sorts/sort-select-card/sort-select-card.component';
+import {FinderControlsComponent} from '../../finder/finder-controls/finder-controls.component';
 
 @NgModule({
     declarations: [
         TeaSortsComponent,
-        SortSelectCardComponent
+        SortSelectCardComponent,
+        FinderControlsComponent
     ],
     imports: [
         CommonModule,
