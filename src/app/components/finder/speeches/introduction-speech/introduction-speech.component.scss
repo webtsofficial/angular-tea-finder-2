@@ -2,11 +2,15 @@
 @import "../../../../../styles/mixins/mixins";
 
 .introduction-speech-wrapper {
+  background-color: $color-accent;
   .image-wrapper {
+    padding: 40px;
     img {
       display: block;
       width: 100%;
+      max-width: 250px;
       height: auto;
+      margin: 0 auto;
     }
   }
   .typed-wrapper {
@@ -14,8 +18,10 @@
     @include flex-direction(column);
     @include justify-content(center);
     @include align-items(center);
+    padding: 40px;
     font-family: $font-monospace;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
+    color: $color-white;
   }
 }

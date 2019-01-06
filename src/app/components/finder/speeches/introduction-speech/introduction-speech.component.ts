@@ -7,6 +7,7 @@ import Typed from 'typed.js';
   styleUrls: ['./introduction-speech.component.scss']
 })
 export class IntroductionSpeechComponent implements OnInit {
+  step = 1;
 
   constructor() { }
 
@@ -17,7 +18,9 @@ export class IntroductionSpeechComponent implements OnInit {
       typeSpeed: 30,
       backDelay: 1000
     });
-    console.log(typed);
   }
 
+  nextStep(): void {
+    this.step++;
+  }
 }
