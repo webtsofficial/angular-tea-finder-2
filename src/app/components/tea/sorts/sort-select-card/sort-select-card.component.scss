@@ -32,7 +32,17 @@
 
   &.active {
     .overlay-wrapper {
-      background-color: rgba(0,0,255,0.2);
+      background-color: $color-card-active-overlay;
+
+      &:hover {
+        background-color: $color-card-active-overlay-hover;
+      }
+    }
+  }
+
+  &:hover {
+    .overlay-wrapper {
+      background-color: $color-card-hover-overlay;
     }
   }
 }

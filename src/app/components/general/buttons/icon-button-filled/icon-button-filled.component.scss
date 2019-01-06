@@ -1,0 +1,18 @@
+@import "../../../../../styles/variables/variables";
+@import "../../../../../styles/mixins/mixins";
+
+.icon-button-filled {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: $color-primary-green;
+  color: $color-white;
+  font-family: $font-open-sans;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  @include box-shadow(0, 0, 12px, $color-shadow-dark);
+
+}

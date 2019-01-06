@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {SharedModule} from './shared.module';
 import {HomeComponent} from './components/sites/home/home.component';
+import {IntroductionSpeechComponent} from './components/finder/speeches/introduction-speech/introduction-speech.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    IntroductionSpeechComponent
   ],
   imports: [
     BrowserModule,

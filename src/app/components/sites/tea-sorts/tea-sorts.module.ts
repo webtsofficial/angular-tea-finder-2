@@ -10,8 +10,7 @@ import {FinderControlsComponent} from '../../finder/finder-controls/finder-contr
 @NgModule({
     declarations: [
         TeaSortsComponent,
-        SortSelectCardComponent,
-        FinderControlsComponent
+        SortSelectCardComponent
     ],
     imports: [
         CommonModule,

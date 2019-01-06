@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="514px" height="457px" viewBox="0 0 514 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#47FF6E" offset="0%"></stop>
+            <stop stop-color="#23E56E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.8401631%" y1="13.0766524%" x2="86.2483187%" y2="90.5080861%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D9D9D9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.3249821%" y1="12.8835679%" x2="80.6347053%" y2="89.35262%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E2E2E2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="tea-finder-logo" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <g id="leaf">
+                    <path d="M487.405113,8.67795143 C482.407416,-2.47777859 468.128282,-2.92400779 462.148894,7.60700134 C434.483072,55.7105092 384.952325,85.6971115 328.371256,85.6971115 L256.975586,85.6971115 C162.376322,85.6971115 85.6259759,162.448534 85.6259759,257.049124 C85.6259759,263.296333 86.3399326,269.275805 86.9646447,275.344522 C143.902692,234.559173 226.096958,199.931787 342.65039,199.931787 C350.503914,199.931787 356.929524,206.357487 356.929524,214.211121 C356.929524,222.064755 350.503914,228.490456 342.65039,228.490456 C118.289495,228.490456 23.154764,366.018295 2.09304117,417.691637 C-3.79710166,432.238709 3.16397623,448.838435 17.7108441,454.817906 C32.3469566,460.886623 48.9464501,453.836202 55.0150821,439.378376 C56.3537509,436.165526 73.667201,396.629618 119.181941,358.521645 C148.097188,397.700569 203.071854,435.094576 275.270726,427.419433 C415.38473,417.245408 514,291.587265 514,137.727436 C514,92.9260245 504.361584,46.5181876 487.405113,8.67795143 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(159.000000, 285.000000)">
+                <polygon id="Triangle" fill="#FF8585" transform="translate(113.500000, 42.500000) rotate(-180.000000) translate(-113.500000, -42.500000) " points="113.5 28 227 57 0 57"></polygon>
+                <polygon id="Triangle-Copy" fill="#F25C5C" transform="translate(113.500000, 14.500000) rotate(-360.000000) translate(-113.500000, -14.500000) " points="113.5 0 227 29 0 29"></polygon>
+            </g>
+            <circle id="Oval" stroke="#000000" stroke-width="5" fill="url(#linearGradient-2)" cx="212.5" cy="129.5" r="66.5"></circle>
+            <circle id="Oval-Copy" stroke="#000000" stroke-width="5" fill="url(#linearGradient-3)" cx="402.5" cy="129.5" r="66.5"></circle>
+            <circle id="Oval" fill="#000000" cx="213" cy="130" r="33"></circle>
+            <circle id="Oval-Copy-2" fill="#000000" cx="403" cy="130" r="33"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="217" cy="118" r="4"></circle>
+            <circle id="Oval-Copy-3" fill="#FFFFFF" cx="413" cy="118" r="4"></circle>
+        </g>
+    </g>
+</svg>

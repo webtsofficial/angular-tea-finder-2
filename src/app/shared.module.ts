@@ -5,12 +5,14 @@ import {HttpClientModule} from '@angular/common/http';
 import {HeightEqualsWidthDirective} from './directives/general/styling/height-equals-width/height-equals-width.directive';
 import {IconButtonFilledComponent} from './components/general/buttons/icon-button-filled/icon-button-filled.component';
 import {IconButtonBorderedComponent} from './components/general/buttons/icon-button-bordered/icon-button-bordered.component';
+import {FinderControlsComponent} from './components/finder/finder-controls/finder-controls.component';
 
 @NgModule({
   declarations: [
     HeightEqualsWidthDirective,
       IconButtonFilledComponent,
-      IconButtonBorderedComponent
+      IconButtonBorderedComponent,
+      FinderControlsComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import {IconButtonBorderedComponent} from './components/general/buttons/icon-but
       HttpClientModule,
       HeightEqualsWidthDirective,
       IconButtonFilledComponent,
-      IconButtonBorderedComponent
+      IconButtonBorderedComponent,
+      FinderControlsComponent
   ]
 })
 export class SharedModule {}
