@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import Typed from 'typed.js';
 
 @Component({
@@ -7,20 +7,31 @@ import Typed from 'typed.js';
   styleUrls: ['./introduction-speech.component.scss']
 })
 export class IntroductionSpeechComponent implements OnInit {
-  step = 1;
+  @Input() step: number;
+  @Output() maxStep = new EventEmitter();
+  maximumStep = 3;
 
-  constructor() { }
+  constructor() {
+    this.maxStep.emit(this.maximumStep);
+    this.maxStep.subscribe((e) => {console.log(e);});
+  }
 
   ngOnInit() {
+  }
+  checkStep = (stepIndex: number): boolean => {
+    if(stepIndex === this.step) {
+      this.initTypedJs();
+      return true;
+    } else {
+      return false;
+    }
+  };
+  initTypedJs(): void {
     const typed = new Typed('.typed', {
       stringsElement: '#typed-string',
       smartBackspace: true,
       typeSpeed: 30,
       backDelay: 1000
     });
-  }
-
-  nextStep(): void {
-    this.step++;
   }
 }

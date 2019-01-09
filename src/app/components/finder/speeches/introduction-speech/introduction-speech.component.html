@@ -2,7 +2,41 @@
     <div class="col-12 col-sm-6 col-md-4 image-wrapper">
         <img src="../../../../../assets/illustration/tea-finder/tea-finder-illustration.svg">
     </div>
-    <div class="col-12 col-sm-6 col-md-8 typed-wrapper">
+    <div class="col-12 col-sm-6 col-md-8 typed-wrapper" *ngIf="step === 1" (load)="checkStep(1)">
+        <div id="typed-string">
+            <p>
+                Hello, I'm the tea-finder,<br>
+                I'll help you finding the right tea!
+            </p>
+            <p>
+                First, let's start with the controls:<br>
+                We have 6 steps for finding your tea. In every step you can choose between certain possibilities
+                and can submit or skip the step if you are ready.<br>
+                You can also always cancel the search.
+            </p>
+        </div>
+        <div class="typed">
+
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-8 typed-wrapper" *ngIf="step === 2"(load)="checkStep(2)">
+        <div id="typed-string">
+            <p>
+                Hello, I'm the tea-finder,<br>
+                I'll help you finding the right tea!
+            </p>
+            <p>
+                First, let's start with the controls:<br>
+                We have 6 steps for finding your tea. In every step you can choose between certain possibilities
+                and can submit or skip the step if you are ready.<br>
+                You can also always cancel the search.
+            </p>
+        </div>
+        <div class="typed">
+
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-8 typed-wrapper" *ngIf="step === 3" (load)="checkStep(3)">
         <div id="typed-string">
             <p>
                 Hello, I'm the tea-finder,<br>
