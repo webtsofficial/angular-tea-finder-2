@@ -1,37 +1,27 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {AfterViewInit, Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import Typed from 'typed.js';
+import {LogService} from '../../../../services/logging/log.service';
 
 @Component({
   selector: 'app-introduction-speech',
   templateUrl: './introduction-speech.component.html',
   styleUrls: ['./introduction-speech.component.scss']
 })
-export class IntroductionSpeechComponent implements OnInit {
-  @Input() step: number;
-  @Output() maxStep = new EventEmitter();
-  maximumStep = 3;
+export class IntroductionSpeechComponent implements AfterViewInit {
 
-  constructor() {
-    this.maxStep.emit(this.maximumStep);
-    this.maxStep.subscribe((e) => {console.log(e);});
+  constructor(
+      public logService: LogService
+  ) {
   }
 
-  ngOnInit() {
+  ngAfterViewInit(): void {
+    this.initTypedJs('.typed', '#typed-strings');
   }
-  checkStep = (stepIndex: number): boolean => {
-    if(stepIndex === this.step) {
-      this.initTypedJs();
-      return true;
-    } else {
-      return false;
-    }
-  };
-  initTypedJs(): void {
-    const typed = new Typed('.typed', {
-      stringsElement: '#typed-string',
+  initTypedJs(typedId: string, stringId: string): void {
+    const typedIntroduction = new Typed(typedId, {
+      stringsElement: stringId,
       smartBackspace: true,
-      typeSpeed: 30,
-      backDelay: 1000
+      typeSpeed: 50
     });
   }
 }

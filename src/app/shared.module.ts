@@ -6,6 +6,7 @@ import {HeightEqualsWidthDirective} from './directives/general/styling/height-eq
 import {IconButtonFilledComponent} from './components/general/buttons/icon-button-filled/icon-button-filled.component';
 import {IconButtonBorderedComponent} from './components/general/buttons/icon-button-bordered/icon-button-bordered.component';
 import {FinderControlsComponent} from './components/finder/finder-controls/finder-controls.component';
+import {LogService} from './services/logging/log.service';
 
 @NgModule({
   declarations: [
