@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-growing-regions-maps-select',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./growing-regions-maps-select.component.scss']
 })
 export class GrowingRegionsMapsSelectComponent implements OnInit {
+  @ViewChild('gmap') gmapElment: any;
 
   constructor() { }
 
